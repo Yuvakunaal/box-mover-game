@@ -27,12 +27,9 @@ flowchart TB
     Center[⌖] --> Reset
 ```
 
-## 📂 File Structure 
-box-mover-game/
-├── index.html      # Main HTML structure
-├── style.css       # Responsive styling
-│   ├── Desktop layout
-│   └── Mobile grid (3x3)
-└── script.js       # Event handlers
-    ├── Keyboard inputs
-    └── Touch controls
+# 🚀 Advantages and Usefulness
+
+* **Engaging Gameplay:** Offers interactive challenges with smooth movement mechanics.
+* **Accessibility:** Supports both desktop and mobile devices, enhancing user accessibility.
+* **Learning Opportunity:** Demonstrates CSS media queries and JavaScript event handling for responsive and interactive web applications.
+* **Fun and Relaxation:** Provides an enjoyable experience for users looking to unwind or test their skills.
