@@ -20,6 +20,7 @@ flowchart LR
     R[R] --> Reset
 ```
 
+### Mobile
 ```mermaid
 flowchart TB
     Touch[↑ → ↓ ←] --> Movement
