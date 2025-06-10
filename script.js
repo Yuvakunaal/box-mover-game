@@ -14,20 +14,20 @@ info.addEventListener("click", function () {
     const instructions = `
     🎮 Keyboard Game Controls 🎮
     =========================
-    ↑ or w or W - Move Up
-    → or d or D - Move Right
-    ↓ or s or S - Move Down
-    ← or a or A - Move Left
+    🔼 or w or W - Move Up
+    ▶️ or d or D - Move Right
+    🔽 or s or S - Move Down
+    ◀️ or a or A - Move Left
     r or R - Reset position`;
     alert(instructions);
   } else {
     const instructions = `
     🎮 Game Controls 🎮
     =========================
-    ↑ - Move Up
-    → - Move Right
-    ↓ - Move Down
-    ← - Move Left
+    🔼 - Move Up
+    ▶️ - Move Right
+    🔽 - Move Down
+    ◀️ - Move Left
     ⌖ - Reset position`;
     alert(instructions);
   }
@@ -52,7 +52,7 @@ function moveRight() {
   if (travel <= maxRight) {
     box.style.left = travel + "px";
   } else {
-    box.style.left = maxRight + 20 + "px"; 
+    box.style.left = maxRight + 20 + "px";
   }
 }
 
@@ -64,7 +64,7 @@ function moveDown() {
   if (travel <= maxBottom) {
     box.style.top = travel + "px";
   } else {
-    box.style.top = maxBottom + 20 + "px"; 
+    box.style.top = maxBottom + 20 + "px";
   }
 }
 
@@ -74,7 +74,7 @@ function moveLeft() {
   if (travel >= 15) {
     box.style.left = travel + "px";
   } else {
-    box.style.left = "20px"; 
+    box.style.left = "20px";
   }
 }
 
