@@ -1,10 +1,6 @@
 # 🧊 Box Mover Game 
 **A responsive interactive game with keyboard and touch controls**
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/1e90ff/ffffff?text=Desktop+and+Mobile+Views" alt="Game Preview" width="600">
-</div>
-
 ## 🌟 Features
 | Feature | Implementation |
 |---------|---------------|
@@ -22,3 +18,18 @@ flowchart LR
     S[S/↓] --> Down
     D[D/→] --> Right
     R[R] --> Reset
+
+flowchart TB
+    Touch[↑ → ↓ ←] --> Movement
+    Center[⌖] --> Reset
+```
+
+## 📂 File Structure 
+box-mover-game/
+├── index.html      # Main HTML structure
+├── style.css       # Responsive styling
+│   ├── Desktop layout
+│   └── Mobile grid (3x3)
+└── script.js       # Event handlers
+    ├── Keyboard inputs
+    └── Touch controls
