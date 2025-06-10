@@ -87,7 +87,6 @@ function reset() {
 // Desktops
 document.addEventListener("keydown", function (event) {
   let key = event.key;
-
   switch (key) {
     case "w":
     case "W":
