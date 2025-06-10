@@ -18,7 +18,9 @@ flowchart LR
     S[S/↓] --> Down
     D[D/→] --> Right
     R[R] --> Reset
+```
 
+```mermaid
 flowchart TB
     Touch[↑ → ↓ ←] --> Movement
     Center[⌖] --> Reset
